@@ -1,0 +1,27 @@
+
+#carrousel{
+    position:relative;
+    height:200px;
+    width:600px;
+    margin-left: 80px;
+    margin-top: 120px;
+
+}
+#carrousel ul li{
+    position:absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls {
+	position: absolute;
+	height: 60px;
+
+}
+.prev {
+  margin-left: -40px;
+}
+.next {
+  margin-left: 270px;
+}
